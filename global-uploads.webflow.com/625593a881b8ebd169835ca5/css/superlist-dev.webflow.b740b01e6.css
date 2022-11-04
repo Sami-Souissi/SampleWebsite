@@ -589,12 +589,12 @@ li {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  background-color: #1b1a27;
+  background-color: #040433;
   color: #fff;
 }
 
 .hero-wrapper.cc-orange {
-  background-color: #f84f39;
+  background-color: #ec001d;
   color: #000;
 }
 
