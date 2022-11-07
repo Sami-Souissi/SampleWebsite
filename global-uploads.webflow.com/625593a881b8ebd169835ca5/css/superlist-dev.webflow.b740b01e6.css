@@ -233,7 +233,7 @@ li {
 }
 
 .styles__color.is-color-1 {
-  background-color: #f84f39;
+  background-color: #ec001d;
 }
 
 .styles__color.is-color-2 {
@@ -485,7 +485,7 @@ li {
   border-width: 1px;
   border-color: hsla(0, 0%, 100%, 0.21);
   border-radius: 999px;
-  background-color: #f84f39;
+  background-color: #ec001d;
   -webkit-transform: scale3d(1none, 1none, 1none);
   transform: scale3d(1none, 1none, 1none);
   -webkit-transition: all 200ms ease;
@@ -821,7 +821,7 @@ li {
   margin-top: auto;
   margin-bottom: auto;
   border-radius: 999px;
-  background-color: #f84f39;
+  background-color: #ec001d;
   opacity: 0;
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
@@ -962,7 +962,7 @@ li {
 }
 
 .statement-highlighted-text-wrapper.cc-red {
-  color: #f84f39;
+  color: #ec001d;
 }
 
 .statement-highlighted-text-wrapper.cc-green {
@@ -995,14 +995,14 @@ li {
 }
 
 .g-text-color-red {
-  color: #f84f39;
+  color: #ec001d;
 }
 
 .soon-tag {
   display: inline-block;
   padding: 10px 12px;
   border-radius: 999px;
-  background-color: #f84f39;
+  background-color: #ec001d;
   color: #fff;
   font-size: 1.5rem;
   font-weight: 700;
@@ -1290,11 +1290,11 @@ li {
 }
 
 .nav_dropdown-link:hover {
-  color: #f84f39;
+  color: #ec001d;
 }
 
 .nav_dropdown-link.w--current {
-  color: #f84f39;
+  color: #ec001d;
 }
 
 .nav_dropdown-list {
@@ -1646,7 +1646,7 @@ li {
 }
 
 .tabs_tab-link-red:hover {
-  color: #f84f39;
+  color: #ec001d;
 }
 
 .tabs_tab-link-red.w--current {
@@ -1798,7 +1798,7 @@ li {
   position: relative;
   display: inline-block;
   margin-right: 16px;
-  color: #f84f39;
+  color: #ec001d;
 }
 
 .highlight-careers-svg-embed {
@@ -1889,7 +1889,7 @@ li {
 
 .manifesto-heading {
   margin-bottom: 15px;
-  color: #f84f39;
+  color: #ec001d;
   font-size: 22px;
   line-height: 34px;
   font-weight: 600;
@@ -1913,7 +1913,7 @@ li {
   display: -ms-flexbox;
   display: flex;
   overflow: visible;
-  color: #ae3728;
+  color: #fff;
   font-size: 1.0625rem;
   font-weight: 600;
   text-decoration: none;
@@ -2158,7 +2158,7 @@ li {
 }
 
 .text-span {
-  color: #f84f39;
+  color: #ec001d;
 }
 
 .opensourceprojects {
@@ -2186,7 +2186,7 @@ li {
   -ms-flex-direction: column;
   flex-direction: column;
   border-radius: 12px;
-  background-color: #f84f39;
+  background-color: #ec001d;
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
   text-decoration: none;
@@ -2383,7 +2383,7 @@ li {
 }
 
 .ck-button-w:hover {
-  background-color: #f84f39;
+  background-color: #ec001d;
 }
 
 .ck-button-w.is--secondary {
@@ -2720,7 +2720,7 @@ li {
 }
 
 .ck-button-w-2.is--fullwidth:hover {
-  background-color: #f84f39;
+  background-color: #ec001d;
 }
 
 .ck-radio__btn {
@@ -2729,7 +2729,7 @@ li {
   margin-top: 0px;
   margin-left: -1.75rem;
   float: left;
-  border: 1.75px solid #f84f39;
+  border: 1.75px solid #ec001d;
   border-radius: 0.375rem;
   -webkit-transition: background-color 200ms cubic-bezier(.25, .46, .45, .94);
   transition: background-color 200ms cubic-bezier(.25, .46, .45, .94);
@@ -2739,9 +2739,9 @@ li {
   width: 1.25rem;
   height: 1.25rem;
   margin-top: 0rem;
-  border: 1px solid #f84f39;
+  border: 1px solid #ec001d;
   border-radius: 0.375rem;
-  background-color: #f84f39;
+  background-color: #ec001d;
   background-image: url("https://global-uploads.webflow.com/625593a881b8ebd169835ca5/63299e9dae41235586e624fd_radio__checkmark.svg");
   background-position: 50% 50%;
   background-size: 0.625rem;
@@ -2762,8 +2762,8 @@ li {
 }
 
 .ck-radio__btn.is--checked.is--not-allowed {
-  border-color: #f84f39;
-  background-color: #f84f39;
+  border-color: #ec001d;
+  background-color: #ec001d;
 }
 
 .ck-form {
@@ -2942,7 +2942,7 @@ li {
 
 @media screen and (max-width: 991px) {
   .button:hover {
-    background-color: #f84f39;
+    background-color: #ec001d;
   }
 
   .button.cc-dark:hover {
@@ -3285,8 +3285,8 @@ li {
   .footer {
     padding-top: 180px;
     padding-bottom: 60px;
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(30%, rgba(248, 79, 57, 0)), color-stop(0, #f84f39));
-    background-image: linear-gradient(180deg, rgba(248, 79, 57, 0) 30%, #f84f39 0);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(30%, rgba(248, 79, 57, 0)), color-stop(0, #ec001d));
+    background-image: linear-gradient(180deg, rgba(248, 79, 57, 0) 30%, #ec001d 0);
   }
 
   .heading-medium {
