@@ -726,14 +726,14 @@ PageInits = {
             start: [15],
             connect: true,
             range: {
-                'min': [15],
-                'max': [85]
+                'min': [1],
+                'max': [15]
             },
             step: 10,
             format: wNumb({
             decimals: 0,
-                prefix: '$',
-            suffix: 'k',
+                
+            suffix: 'K DT',
           })
           });
  
@@ -752,14 +752,14 @@ PageInits = {
             start: [5],
             connect: true,
             range: {
-                'min': [5],
-                'max': [85]
+                'min': [2],
+                'max': [20]
             },
             step: 10,
             format: wNumb({
             decimals: 0,
-                prefix: '$',
-            suffix: 'k',
+                
+            suffix: 'k DT',
           })
           });
  
@@ -776,14 +776,14 @@ PageInits = {
             start: [5],
             connect: true,
             range: {
-                'min': [5],
-                'max': [85]
+                'min': [1,5],
+                'max': [7]
             },
             step: 10,
             format: wNumb({
             decimals: 0,
-                prefix: '$',
-            suffix: 'k',
+               
+            suffix: 'k DT',
           })
           });
  
