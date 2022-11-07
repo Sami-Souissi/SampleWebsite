@@ -828,7 +828,7 @@ li {
 }
 
 .tabs_tab-link-accent-border.cc-purple {
-  background-color: #6b66da;
+  background-color: #ec001d;
 }
 
 .tabs_tab-link-accent-border.cc-green {
@@ -958,7 +958,7 @@ li {
 }
 
 .statement-highlighted-text-wrapper.cc-purple {
-  color: #6b66da;
+  color: #ec001d;
 }
 
 .statement-highlighted-text-wrapper.cc-red {
@@ -1129,7 +1129,7 @@ li {
   margin-top: 0px;
   margin-bottom: 0px;
   border-radius: 999px;
-  background-color: #6b66da;
+  background-color: #ec001d;
   background-image: url("https://global-uploads.webflow.com/625593a881b8ebd169835ca5/626871b609b3f7482132cd21_button-arrow.svg");
   background-position: 50% 50%;
   background-size: auto;
@@ -1610,13 +1610,13 @@ li {
 }
 
 .tabs_tab-link-purple:hover {
-  color: #6b66da;
+  color: #ec001d;
 }
 
 .tabs_tab-link-purple.w--current {
   z-index: 1;
   background-color: transparent;
-  color: #6b66da;
+  color: #ec001d;
 }
 
 .section-1-svg {
@@ -2201,7 +2201,7 @@ li {
 
 .opensourceproject.opensourcepurplecolor {
   min-height: 650px;
-  background-color: #6b66da;
+  background-color: #ec001d;
 }
 
 .opensourceproject.opensourcegreencolor {
