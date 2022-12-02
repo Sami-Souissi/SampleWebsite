@@ -21,8 +21,7 @@
         <video
           class="video__player"
           autoplay
-  
-          
+
           playsinline
           disablepictureinpicture
         >
@@ -423,18 +422,50 @@
     </div>
 
     <script>
-      const videos = document.querySelectorAll("video");
+      // const videos = document.querySelectorAll("video");
 
-      for (const video of videos) {
-        video.addEventListener("click", function () {
-          console.log("clicked");
-          if (video.paused) {
-            video.play();
-          } else {
-            video.pause();
-          }
-        });
-      }
+      // for (const video of videos) {
+      //   video.addEventListener("click", function () {
+      //     console.log("clicked");
+      //     if (video.paused) {
+      //       video.play();
+      //     } else {
+      //       video.pause();
+      //     }
+      //   });
+      // }
+      function playPauseVideo() {
+    let videos = document.querySelectorAll("video");
+    videos.forEach((video) => {
+        // We can only control playback without insteraction if video is mute
+        video.muted = true;
+        // Play is a promise so we need to check we have it
+        let playPromise = video.play();
+        if (playPromise !== undefined) {
+            playPromise.then((_) => {
+                let observer = new IntersectionObserver(
+                    (entries) => {
+                        entries.forEach((entry) => {
+                            if (
+                                entry.intersectionRatio !== 1 &&
+                                !video.paused
+                            ) {
+                                video.play();
+                            } else if (video.paused) {
+                                video.play();
+                            }
+                        });
+                    },
+                    { threshold: 0.2 }
+                );
+                observer.observe(video);
+            });
+        }
+    });
+}
+
+// And you would kick this off where appropriate with:
+playPauseVideo();
     </script>
   </body>
 </html>
