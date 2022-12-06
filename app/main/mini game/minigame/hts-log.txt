@@ -1,0 +1,20 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 02 Dec 2022 22:25:31 at https://hextris.io +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://hextris.io -O1 "F:\web projects\mini game\minigame" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:26:52	Warning: 	Retry after error -4 (Connect Error) at link hextris.github.io/hextris/images/facebook-opengraph.png (from https://hextris.io/)
+22:26:52	Warning: 	Retry after error -4 (Connect Error) at link hextris.github.io/hextris/images/twitter-opengraph.png (from https://hextris.io/)
+22:27:15	Warning: 	Retry after error -4 (Connect Error) at link www.google-analytics.com/analytics.js (from https://hextris.io/)
+22:27:15	Warning: 	Retry after error -4 (Connect Error) at link hextris.github.io/hextris/images/facebook-opengraph.png (from https://hextris.io/)
+22:27:15	Warning: 	Retry after error -4 (Connect Error) at link hextris.github.io/hextris/images/twitter-opengraph.png (from https://hextris.io/)
+22:27:36	Warning: 	Retry after error -4 (Connect Error) at link www.google-analytics.com/analytics.js (from https://hextris.io/)
+22:27:36	Error: 	"Connect Error" (-4) after 2 retries at link hextris.github.io/hextris/images/facebook-opengraph.png (from https://hextris.io/)
+22:27:36	Error: 	"Connect Error" (-4) after 2 retries at link hextris.github.io/hextris/images/twitter-opengraph.png (from https://hextris.io/)
+22:27:57	Error: 	"Connect Error" (-4) after 2 retries at link www.google-analytics.com/analytics.js (from https://hextris.io/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 26 seconds : 56 links scanned, 46 files written (1385682 bytes overall) [932040 bytes received at 6383 bytes/sec], 1009783 bytes transferred using HTTP compression in 38 files, ratio 51%, 2.7 requests per connection
+(3 errors, 6 warnings, 0 messages)
