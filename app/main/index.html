@@ -16,6 +16,9 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@goldi69s" />
     <meta property="og:locale" content="ja_JP" />
+    <!--service workers-->
+    <link rel="canonical" href="https://sami-souissi.github.io/SampleWebsite/app/main/" />
+
     <link rel="stylesheet" href="assets/css/jquery.fullPage.css" />
     <link rel="stylesheet" href="assets/css/common.css" />
     <link
@@ -321,6 +324,14 @@
          
       }
       </script>
+       <script>
+        // register ServiceWorker, remember to use absolute path!
+        if (navigator.serviceWorker) {
+          navigator.serviceWorker.register('/SampleWebsite/app/main/sw.js', {scope: '/SampleWebsite/app/main/'})
+        }
+        
+        // --- Application code here ---
+        </script>
 
     <!-- <script>
       let counter = "0";
